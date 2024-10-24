@@ -1,0 +1,16 @@
+.rating {   
+    font-size: 2rem; /* Ukuran bintang */
+}
+
+.star {
+    cursor: pointer;
+    color: #ccc; /* Warna default bintang */
+}
+
+.star.selected:hover {
+    color: gold; /* Warna bintang saat hover */
+}
+
+.star.selected {
+    color: gold; /* Warna bintang yang dipilih */
+}
