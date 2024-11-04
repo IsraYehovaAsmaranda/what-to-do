@@ -88,7 +88,7 @@
                     @csrf
                     <div class="modal-body">
                         <div class="container text-center">
-                            <input type="text" name="ideaId" id="ideaId">
+                            <input type="text" name="ideaId" id="ideaId" hidden>
                             <div class="rating">
                                 <span class="star" id="star-1" data-value="1">&#9733;</span>
                                 <span class="star" id="star-2" data-value="2">&#9733;</span>
